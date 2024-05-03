@@ -1,0 +1,127 @@
+root {
+
+}
+
+body {
+    overflow: hidden;
+}
+
+.custom-invoice-card {
+    width: 450px;
+}
+
+#rectangle1 {
+    height: 500px;
+    aspect-ratio: 1/1;
+
+    border-radius: 100px;
+
+    background-image: linear-gradient(to right, #0b5a6f 0%, #001AFF 100%);
+  /*  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,10,61,1) 23%, rgba(73,73,227,1) 49%, rgba(28,124,149,0.7848389355742297) 67%, rgba(28,140,149,1) 86%, rgba(0,212,255,1) 100%);
+*/
+    rotate: 146deg;
+    margin-top: 200px;
+    margin-left: -230px;
+}
+
+#rectangle2 {
+    height: 498px;
+    aspect-ratio: 1/1;
+
+    border-radius: 100px;
+
+    background-image: linear-gradient(to top, #00D1FF 0%, #001AFF 100%);
+
+
+    rotate: 134deg;
+    margin-top: -810px;
+    margin-left: 1640px;
+}
+
+#credential-section {
+    width: 1408px;
+    height: 750px;
+
+    margin-left: 100px;
+    margin-top: -355px;
+
+    rotate: 360deg;
+
+    border-radius: 80px;
+    display: flex;
+    overflow: hidden;
+}
+
+.form {
+    width: 704px;
+    height: 750px;
+    background-color: rgba(216,211,209,0.29);
+
+    padding-left: 130px;
+    padding-top: 280px;
+}
+
+#custom-sign-in-btn {
+    margin-top: -500px;
+    margin-left: 470px;
+
+    color: blue;
+    font-size: medium;
+    font-weight: bold;
+    border: solid 2px blue;
+    border-radius: 20px;
+}
+
+.form-right {
+    width: calc(1408px - 704px);
+    height: 750px;
+    background-color: deeppink;
+}
+
+.form-right> div> img {
+    width: 650px;
+}
+
+.img-position {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#custom-login-btn {
+    width: 200px;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #2555e1 0%, #001AFF 100%);
+    border: 0;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+#custom-frgPw-btn {
+    margin-top: -30px;
+    margin-left: 320px;
+
+    color: blue;
+    font-size: small;
+}
+
+#login-desc> h3 {
+    font-size: xxx-large;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+#login-desc {
+    margin-top: -170px;
+    padding-bottom: 90px;
+    color: blue;
+    font-weight: bolder;
+}
+
+#login-desc2 {
+    color: white;
+    font-weight: bolder;
+    margin-left: 230px;
+    margin-top: 100px;
+}
